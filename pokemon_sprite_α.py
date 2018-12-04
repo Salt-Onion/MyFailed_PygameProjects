@@ -24,9 +24,9 @@ def main():
     MySprite.containers = group
     
     # スプライトを作成
-    metamon0 = MySprite("pygame_image/74.132.png", 0, 0, 2, 2)
-    metamon1 = MySprite("pygame_image/68.132.png", 10, 320, -2, 2)
-    metamon2 = MySprite("pygame_image/88.132.png", 320, 240, 2, -2)
+    metamon0 = MySprite("pygame_image/74_132.png", 0, 0, 2, 2)
+    metamon1 = MySprite("pygame_image/68_132.png", 10, 320, -2, 2)
+    metamon2 = MySprite("pygame_image/88_132.png", 320, 240, 2, -2)
     
     group01 = pygame.sprite.RenderUpdates()
     group12 = pygame.sprite.RenderUpdates()
